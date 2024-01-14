@@ -11,7 +11,7 @@ export default function Hero() {
             </p>
            
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col pt-3 items-center">
             <h3><span className="text-2xl font-thin">Celebrate the</span></h3>
             <h3 className="-mt-2"><span><span className="text-3xl font-extrabold text-green-800"> imperfect</span></span></h3>
             <Image alt="fire" className="mr-auto pt-1" src="/fire.jpg" height={100} width={100} />

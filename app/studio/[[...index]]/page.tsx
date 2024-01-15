@@ -16,7 +16,7 @@ export default function StudioPage() {
   return (
     <>
     <div className="text-xs py-2 px-4 text-gray-400">
-    <a  href="http://localhost:3000/">back to homepage</a>
+    <a  href={process.env.NEXT_PUBLIC_BASE_URL}>back to homepage</a>
     </div>
    
     <NextStudio config={config} />

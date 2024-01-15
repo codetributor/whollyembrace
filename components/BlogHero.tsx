@@ -35,7 +35,7 @@ const nowPost = await client.fetch(queryNow);
 
 return(
         <div className="flex flex-col py-10 items-center justify-center">
-            <h3 className="font-thin pb-8 selection:sm:pb-16 sm:text-2xl">blog</h3>
+            <h3 className="font-thin pb-8 sm:pb-16 selection:sm:pb-16 sm:text-2xl">blog</h3>
             <div className="max-w-6xl space-y-2 lg:space-x-2 lg:flex lg:space-y-0">
                 
                 <div className="space-y-2">

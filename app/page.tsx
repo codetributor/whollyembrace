@@ -1,3 +1,4 @@
+import BlogHero from '@/components/BlogHero'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Hero />
       <SectionOne />
+      <BlogHero />
       <div className="h-screen flex items-end w-full">
       <Footer />
       </div>

@@ -6,7 +6,7 @@ export default function Footer() {
                 <p className="text-green-800">whollyembrace@gmail.com</p>
             </div>
             <div>
-                <p className="text-green-800"><span className="text-gray-400">made with love by</span> Earb Amari</p>
+                <p className="text-green-800"><span className="text-gray-400">made with love by</span> Earb Nobu Amari</p>
             </div>
         </div>
         </div>

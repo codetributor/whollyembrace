@@ -1,12 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
     return(
         <div className="flex justify-center">
             <div className="px-4 py-2 w-full flex justify-between max-w-6xl">
-            <div className="">
+            <Link href="/">
                 <Image alt="logo" src="/logo.png" className="rounded-sm" height={50} width={50} />
-            </div>
+            </Link>
             <div className="flex justify-center space-x-4 items-center">
             {/* <a><Image src="/discord-icon.png" alt="substack" width={25} height={25} /></a>
             <a><Image src="/substack-icon.png" alt="substack" width={15} height={15} /></a> */}

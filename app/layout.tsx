@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'wholly embrace | celebrate the imperfect',
-  description: 'philosophy: embrace yourself. embrace others. embrace life. escape the tyrannical ruler that hides in the shadows of our minds. made with love by Earb Amari.',
+  title: 'wholly embrace | catch the afternoon breeze',
+  description: 'philosophy: embrace yourself. embrace others. embrace life. made with love by Earb Amari.',
   icons: {
     icon: '/logo.png'
   }

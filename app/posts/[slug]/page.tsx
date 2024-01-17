@@ -10,6 +10,22 @@ type Props = {
     }
 }
 
+export const revalidate = 60;
+
+export async function generateStaticParams() {
+    const query = groq`
+    *[_type == "post"]
+    {
+        slug
+    }
+    `
+    const slugs: any[] = await client.fetch(query);
+    const slugRoutes = slugs.map((slug: any) => slug.slug.current);
+    return slugRoutes.map((slug: any) => ({
+        slug
+    }))
+}
+
 export default async function Post({params: {slug}}: Props) {
     const query = groq`
         *[_type == 'post' && slug.current == $slug][0]

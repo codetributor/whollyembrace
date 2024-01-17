@@ -41,10 +41,10 @@ export default async function Post({params: {slug}}: Props) {
         <div>
             <Header />
             <BlogHeader 
-            title={post.title}
-            image={urlFor(post.mainImage).url()}
-            createdAt={post._createdAt}
-            body={post.body}
+            title={post?.title}
+            image={urlFor(post?.mainImage)?.url()}
+            createdAt={post?._createdAt}
+            body={post?.body}
             />
         </div>
     );

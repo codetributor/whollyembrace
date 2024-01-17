@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import ClientSideRoute from "./ClientSideRoute";
 
+export const revalidate = 30;
+
 export default async function BlogHero() {
     const queryBeMore =  groq`
         *[title=='Be More'] {
@@ -27,7 +29,7 @@ const queryNow =  groq`
             ...,
             author->,
             categories[]->,
-
+            slug
         } 
     `
 

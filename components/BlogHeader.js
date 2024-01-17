@@ -4,7 +4,6 @@ import Image from "next/image";
 import PortableText from "react-portable-text";
 
 export default function BlogHeader({title, image, createdAt, body}) {
-    console.log(body);
     return(
         <div className="flex justify-center">
             <div className="max-w-6xl px-3 py-5">

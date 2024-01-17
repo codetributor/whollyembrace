@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'wholly embrace | celebrate the imperfect',
-  description: 'escape the tyrannical ruler that hides in the shadows of our minds',
+  description: 'philosophy: embrace yourself. embrace others. embrace life. whollyembrace@gmail.com. made with love by Earb Amari.',
   icons: {
     icon: '/logo.png'
   }

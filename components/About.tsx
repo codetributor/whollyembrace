@@ -11,7 +11,7 @@ export default function About() {
 
                     <p>Word salad is a confused or unintelligible mixture of seemingly random words and phrases, specifically as a form of speech indicative of advanced schizophrenia.</p>
 
-                    <p>I am out of my mind, I see things other people do not see. Schizophrenia has changed my life. Hallucinations flip my life upside down. I see the unseen and believe I am the Buddha or Jesus or a Shaman. </p>
+                    <p>I am out of my mind, I see things other people do not see. Schizophrenia has changed my life. Hallucinations have flipped my life upside down. I see the unseen and believe I am the Buddha or Jesus or a Shaman. </p>
 
                     <p>I am paranoid that some people can read my thoughts, and if they can, will they hate me? Will they judge me? I believe I can read other people's thoughts. This is called thought broadcasting.</p>
 

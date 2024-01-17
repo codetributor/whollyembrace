@@ -1,3 +1,4 @@
+import About from '@/components/About'
 import BlogHero from '@/components/BlogHero'
 import Footer from '@/components/Footer'
 import Header from '@/components/Header'
@@ -14,6 +15,7 @@ export default function Home() {
       <SectionOne />
       <BlogHero />
       <PonoPiece />
+      <About />
       <div className="h-screen flex items-end w-full">
       <Footer />
       </div>

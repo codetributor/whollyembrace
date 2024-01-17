@@ -41,7 +41,7 @@ return(
             <div className="max-w-6xl space-y-2 lg:space-x-2 lg:flex lg:space-y-0">
                 
                 <div>
-                    <ClientSideRoute route={`/post/${heresHappinessPost[0].slug.current}`}>
+                    <ClientSideRoute route={`/posts/${heresHappinessPost[0].slug.current}`}>
                     <div className="relative mb-2 w-full cursor-pointer">
                         <div className="lg:max-w-[352px]">
                         <Image alt="" src={urlFor(heresHappinessPost[0].mainImage).url()} height={400} width={700} />

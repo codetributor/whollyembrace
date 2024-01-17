@@ -5,8 +5,11 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'wholly embrace',
-  description: 'celebrate the imperfect',
+  title: 'wholly embrace | celebrate the imperfect',
+  description: 'escape the tyrannical ruler that hides in the shadows of our minds',
+  icons: {
+    icon: '/logo.png'
+  }
 }
 
 export default function RootLayout({

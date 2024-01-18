@@ -33,7 +33,7 @@ export default function Header() {
             <div className="relative px-4 py-2 w-full flex justify-between max-w-6xl">
             <div>
         
-                <Image className="cursor-pointer" onClick={toggleMenu} alt="logo" src="/logo.png" className="rounded-sm" height={50} width={50} />
+                <Image onClick={toggleMenu} alt="logo" src="/logo.png" className="cursor-pointer rounded-sm" height={50} width={50} />
             
             <div className={`absolute ${showMenu} z-10 bg-white px-3 py-5 rounded-md top-18`}>
             <div onClick={pushToHome} className="cursor-pointer bg-gray-100 mb-1 text-gray-400 text-center rounded-full px-8 py-1">home</div>

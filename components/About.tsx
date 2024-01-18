@@ -1,10 +1,14 @@
+import Image from "next/image";
+
 export default function About() {
     return(
         <div className="flex justify-center py-10">
             <div className="max-w-6xl">
                 <div className="space-y-4 text-gray-400 px-3 text-center sm:text-left">
-                    <div>
+                    <div className="flex flex-col sm:flex-row sm:justify-evenly items-center">
+                        <Image className="pb-5 sm:hidden" src="/earb.png" height={200} width={200} alt="profile photo" />
                     <h1 className="text-2xl text-center sm:text-left font-bold text-green-800">About Earb</h1>
+                    <Image className="pb-5 hidden sm:block" src="/earb.png" height={200} width={200} alt="profile photo" />
                     </div>
                     
                     <p>I am insane and imperfect and I must accept that. I hear voices, whispers in the wind, messages from the universe. I have grandiose thoughts that I know about a secret ancient language within the English language. This is called word salad, which is a symptom of schizophrenia.</p>

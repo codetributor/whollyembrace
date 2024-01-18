@@ -1,4 +1,5 @@
 import ClientSideRoute from "@/components/ClientSideRoute";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { client } from "@/lib/sanity.client";
 import urlFor from "@/lib/urlFor";
@@ -19,7 +20,7 @@ export default async function BlogList() {
     const posts = await client.fetch(query)
 
     return(
-        <div className="flex justify-center items-center flex-col">
+        <div className="flex flex-1 h-screen justify-center items-center flex-col">
             <Header />
             <h3 className="py-4 text-2xl font-thin">blog list</h3>
             <div className="max-w-6xl py-4">
@@ -48,6 +49,9 @@ export default async function BlogList() {
                 ))}
                 </div>  
             </div>
+            <div className="h-screen flex items-end w-full">
+      <Footer />
+      </div>
         </div>
     );
 }

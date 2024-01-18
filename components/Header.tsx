@@ -1,13 +1,46 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 
 export default function Header() {
+
+    const router = useRouter();
+
+    const [showMenu, setShowMenu] = useState("hidden");
+
+    const pushToHome = () => {
+        router.push("/")
+        setShowMenu("hidden")
+    }
+
+    const pushToBlogList = () => {
+        router.push("/bloglist");
+        setShowMenu("hidden")
+    }
+
+    const toggleMenu = () => {
+        if(showMenu == "hidden") {
+            setShowMenu("");
+        } else {
+            setShowMenu("hidden");
+        }
+    }
     return(
         <div className="flex w-full justify-center">
-            <div className="px-4 py-2 w-full flex justify-between max-w-6xl">
-            <Link href="/">
-                <Image alt="logo" src="/logo.png" className="rounded-sm" height={50} width={50} />
-            </Link>
+            <div className="relative px-4 py-2 w-full flex justify-between max-w-6xl">
+            <div>
+        
+                <Image className="cursor-pointer" onClick={toggleMenu} alt="logo" src="/logo.png" className="rounded-sm" height={50} width={50} />
+            
+            <div className={`absolute ${showMenu} z-10 bg-white px-3 py-5 rounded-md top-18`}>
+            <div onClick={pushToHome} className="cursor-pointer bg-gray-100 mb-1 text-gray-400 text-center rounded-full px-8 py-1">home</div>
+            <div onClick={pushToBlogList} className="cursor-pointer mb-1 bg-gray-100 text-gray-400 text-center rounded-full px-8 py-1">blog posts</div>
+            </div>
+            </div>
+          
             <div className="flex justify-center space-x-4 items-center">
             {/* <a><Image src="/discord-icon.png" alt="substack" width={25} height={25} /></a>
             <a><Image src="/substack-icon.png" alt="substack" width={15} height={15} /></a> */}

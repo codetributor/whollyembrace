@@ -11,7 +11,7 @@ export default function About() {
                     <Image className="pb-5 hidden sm:block" src="/earb.png" height={200} width={200} alt="profile photo" />
                     </div>
                     
-                    <p>I am totally insane and imperfect and I must accept that. I hear voices, whispers in the wind, messages from the universe. I have grandiose thoughts that I know about a secret ancient language within the English, a language in a language. This is called word salad, which is a symptom of schizophrenia.</p>
+                    <p>I am totally insane and imperfect and I must accept that. I hear voices, whispers in the wind, messages from the universe. I have grandiose thoughts that I know about a secret ancient language within the English, a language within a language. This is called word salad, which is a symptom of schizophrenia.</p>
 
                     <p>Word salad is a confused or unintelligible mixture of seemingly random words and phrases, specifically as a form of speech indicative of advanced schizophrenia.</p>
 

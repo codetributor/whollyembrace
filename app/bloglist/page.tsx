@@ -20,11 +20,10 @@ export default async function BlogList() {
     const posts = await client.fetch(query)
 
     return(
-        <div>
+            <div className="flex h-screen items-center flex-col">
             <Header />
-            <div className="flex flex-1 h-screen justify-center items-center flex-col">
-            
-            <h3 className="py-4 text-2xl font-thin">blog list</h3>
+            <div>
+            <h3 className="py-4 text-center text-2xl font-thin">blog list</h3>
             <div className="max-w-6xl py-4">
                 <div className="flex flex-col space-y-2 sm:grid sm:gap-2 sm:grid-cols-2 sm:space-y-0 ">
                 {posts.map((post: any) => (
@@ -51,11 +50,14 @@ export default async function BlogList() {
                 ))}
                 </div>  
             </div>
-            <div className="h-screen flex items-end w-full">
+            </div>
+            
+            <div className="flex h-screen items-end w-full">
       <Footer />
       </div>
         </div>
-        </div>
+        
+       
       
     );
 }

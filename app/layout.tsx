@@ -5,7 +5,7 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'wholly embrace | catch the afternoon breeze',
+  title: 'wholly embrace | celebrate the imperfect',
   description: 'philosophy: embrace yourself. embrace others. embrace life. made with love by Earb Amari.',
   icons: {
     icon: '/logo.png'
@@ -22,4 +22,4 @@ export default function RootLayout({
       <body className="bg-gray-100">{children}</body>
     </html>
   )
-}
+} 

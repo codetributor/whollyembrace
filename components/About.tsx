@@ -10,8 +10,6 @@ export default function About() {
                     <h1 className="text-2xl text-center sm:text-left font-bold text-green-800">About Earb</h1>
                     <Image className="pb-5 hidden sm:block" src="/earb.png" height={200} width={200} alt="profile photo" />
                     </div>
-                    <p>I live with mental illness, and this change in my life, brought pain, loss, and grief. But life is change and we must remember that there are people in our lives, yes them, that guide us through the dark times. It could be a person you meet on the bus, or a parent, friend or sibling. It could be the voice of one of them, in a song, or word in a book, of scene in a movie, it could be one of them.</p>
-                    <p>And if after you rise out of the darkness, you can be one of them. Them, the people who care.</p>
                     <p>I am totally insane and imperfect and I must accept that. I hear voices, whispers in the wind, messages from the universe. I have grandiose thoughts that I know about a secret ancient language within the English, a language within a language. This is called word salad, which is a symptom of schizophrenia.</p>
 
                     <p>Word salad is a confused or unintelligible mixture of seemingly random words and phrases, specifically as a form of speech indicative of advanced schizophrenia.</p>

@@ -16,7 +16,7 @@ export default function About() {
 
                     <p>I am out of my mind, I see things some other people do not see. Schizophrenia has changed my life. Hallucinations have flipped my life upside down. I see the unseen and believe I am the Buddha or Jesus or a Shaman. </p>
 
-                    <p>I am paranoid that some people can read my thoughts, and if they can, will they hate me? Will they judge me? I believe I can read other people&apos;s thoughts. This is called thought broadcasting.</p>
+                    <p>I am paranoid that some people can read my thoughts, and if they can, will they hate me? will they judge me? I believe I can read other people&apos;s thoughts. This is called thought broadcasting.</p>
 
                     <p>Thought broadcasting is a condition in which people believe that others can hear their thoughts. Some people believe that their thoughts are being broadcasted by the television, radio, or the internet and in some cases people might avoid interacting with these mediums.</p>
 
